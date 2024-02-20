@@ -53,3 +53,7 @@ Represents a service where RIT Libraries may ship items to faculty and staff who
 
 ### DOIService
 Represents a service where RIT Libraries is able to assign DOIs for the RIT community through a partnership with the Research & Computing Office and membership with DataCite, a DOI registration agency. This service allows for better citation tracking and access to research, particularly for products of non-traditional publishing.
+
+## Class Diagram
+
+![Class Diagram](images/LibraryServiceTrackerRIT.png)
