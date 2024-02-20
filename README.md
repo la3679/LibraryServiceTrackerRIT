@@ -26,8 +26,30 @@ Upon running the application, you will see the information about different libra
 
 ![Output](images/output.png)
 
-## Setup
+## Library Service Visitors
 
-```bash
-javac *.java
-java LibraryApp
+### LibraryServiceVisitor
+This interface defines a visitor for various library services. It contains methods for visiting each type of library service.
+
+### LibraryServiceDisplayVisitor
+This concrete visitor implements the LibraryServiceVisitor interface. It is responsible for displaying information about various library services.
+
+## Library Services
+
+### BookPickupService
+Represents a service where RIT community members can submit an online request for physical materials in the library's collection, and they will be contacted when their items are ready for pickup. This service is free and available to all current students, faculty, and staff with an active RIT account.
+
+### BorrowAndRenewService
+Represents a service where RIT students, faculty, staff, and alumni may borrow library materials by presenting a current RIT ID at the Library Services Desk. Fines for hourly loan items are assessed after a brief grace period, then continue to accumulate at the rates above. If you have a fines balance of $5 or more, your borrowing privileges are suspended until the fines are paid.
+
+### BorrowFromOtherLocationsService
+Represents a service where if your item is not immediately available from our library, there are several ways to get what you need.
+
+### CourseReservesService
+Represents a service where the RIT Libraries Reserves collection allows instructors to identify materials to which the Library should provide controlled access during the semester. Placing items on reserve removes them from the circulating collection and assigns shorter loan periods (e.g. 2 hours) to ensure availability of high-demand items to the maximum number of borrowers. These materials are kept at the Library Service Desk at Wallace.
+
+### FacultyStaffDeliveryService
+Represents a service where RIT Libraries may ship items to faculty and staff who are fully remote workers. If this applies, faculty or staff members are required to provide their current mailing address.
+
+### DOIService
+Represents a service where RIT Libraries is able to assign DOIs for the RIT community through a partnership with the Research & Computing Office and membership with DataCite, a DOI registration agency. This service allows for better citation tracking and access to research, particularly for products of non-traditional publishing.
