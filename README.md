@@ -24,7 +24,7 @@ To run the RIT Library Services App, follow these steps:
 
 Upon running the application, you will see the information about different library services displayed in the console. Each service will be visited by the `LibraryServiceDisplayVisitor`, which will print relevant details about the service.
 
-![Output](output.png);
+![Output](images/output.png);
 
 ```bash
 javac *.java
