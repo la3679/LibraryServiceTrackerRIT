@@ -28,4 +28,4 @@ java LibraryApp
 
 Upon running the application, you will see the information about different library services displayed in the console. Each service will be visited by the `LibraryServiceDisplayVisitor`, which will print relevant details about the service.
 
-![Output](output.png)
+![Output](output.png);
