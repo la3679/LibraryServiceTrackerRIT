@@ -20,12 +20,12 @@ To run the RIT Library Services App, follow these steps:
 2. Compile the Java files using a Java compiler.
 3. Run the `LibraryApp` class, which contains the main method.
 
+```bash
+javac *.java
+java LibraryApp
+
 ## Usage
 
 Upon running the application, you will see the information about different library services displayed in the console. Each service will be visited by the `LibraryServiceDisplayVisitor`, which will print relevant details about the service.
 
-![Output](images/output.png);
-
-```bash
-javac *.java
-java LibraryApp
+![Output](images/output.png)
